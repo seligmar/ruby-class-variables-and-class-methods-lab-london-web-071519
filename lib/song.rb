@@ -24,11 +24,11 @@ class Song
   end 
   
   def self.artists 
-    @@artists.uniq!
+    @@artists.uniq
   end 
   
   def self.genres
-    @@genres.uniq!
+    @@genres.uniq
   end 
   
   def self.genre_count
@@ -38,7 +38,8 @@ class Song
     #   @@gentr_count[@genre] += 1 
     # else @@gentr_count[@genre] = 1 
     binding.pry 
-  # end 
+   end 
+   
 end
 
 end #final end 
