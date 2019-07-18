@@ -32,11 +32,13 @@ class Song
   end 
   
   def self.genre_count
-    if @@genre_count[@@genres] 
-       @@gentr_count[@genre] += 1 
-    else @@gentr_count[@genre] = 1 
+    @@genres.each do |all_instances|
+      
+    # if @@genre_count[@@genres] 
+    #   @@gentr_count[@genre] += 1 
+    # else @@gentr_count[@genre] = 1 
     binding.pry 
-  end 
+  # end 
 end
 
 end #final end 
