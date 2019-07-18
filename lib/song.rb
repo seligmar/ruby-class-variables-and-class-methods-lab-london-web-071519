@@ -44,10 +44,11 @@ end
 def self.artist_count
   @@artists.each do |all_instances_artists|
     if @@artist_count[all_instances_artists]
-      @@artist_count[all_instances_artists] += 1 
+       @@artist_count[all_instances_artists] += 1 
     else @@artist_count[all_instances_artists] = 1 
     end 
   end 
-  @@artist_count
+ @@artist_count
 end 
-end #final end 
+
+end
