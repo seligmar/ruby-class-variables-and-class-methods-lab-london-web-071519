@@ -41,9 +41,8 @@ class Song
        genre_count[all_instances] = 1 
   #  binding.pry 
    end 
-   genre_count
   end  
-  
+   genre_count
 end
 
 end #final end 
