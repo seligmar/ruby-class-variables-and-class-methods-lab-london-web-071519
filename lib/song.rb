@@ -35,12 +35,13 @@ class Song
     
     @@genres.each do |all_instances|
       
-    # if @@genre_count[@@genres] 
+     if @@genre_count[all_instances] 
+        @@genre_count[all_instances] += 1
     #   @@gentr_count[@genre] += 1 
-    # else @@gentr_count[@genre] = 1 
+     else @@genre_count[all_instances] = 1 
     binding.pry 
    end 
-   
+  end  
 end
 
 end #final end 
