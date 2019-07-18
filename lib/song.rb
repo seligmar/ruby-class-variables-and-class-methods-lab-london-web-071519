@@ -38,7 +38,8 @@ class Song
      else @@genre_count[all_instances] = 1 
    end 
   end  
-# @@genre_count
+ @@genre_count
 end
 
+def self.
 end #final end 
