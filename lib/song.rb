@@ -32,7 +32,7 @@ class Song
   end 
   
   def self.genre_count
-    @@genre_count = {}
+    genre_count = {}
     @@genres.each do |all_instances|
      if 
        @@genre_count[all_instances] 
@@ -41,7 +41,7 @@ class Song
        @@genre_count[all_instances] = 1 
   #  binding.pry 
    end 
-   @@genre_count
+   genre_count
   end  
   
 end
