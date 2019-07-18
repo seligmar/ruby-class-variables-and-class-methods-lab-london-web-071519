@@ -40,6 +40,7 @@ class Song
      else @@genre_count[all_instances] = 1 
     binding.pry 
    end 
+   @@genre_count
   end  
   
 end
