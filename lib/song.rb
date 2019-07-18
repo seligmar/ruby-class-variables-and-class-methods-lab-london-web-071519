@@ -33,11 +33,9 @@ class Song
   
   def self.genre_count
     @@genres.each do |all_instances|
-     if 
-       @@genre_count[all_instances] 
-       @@genre_count[all_instances] += 1
-     else 
-       @@genre_count[all_instances] = 1 
+     if @@genre_count[all_instances] 
+        @@genre_count[all_instances] += 1
+     else @@genre_count[all_instances] = 1 
   #  binding.pry 
    end 
   end  
